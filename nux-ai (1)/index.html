@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NUX AI</title>
+    <meta name="description" content="منصة ذكاء اصطناعي متطورة تجمع أقوى النماذج العالمية في مكان واحد، لتجربة محادثة فائقة، تفكير عميق، وإدارة برمجية متكاملة."/>
+    <meta property="og:title" content="NUX AI" />
+    <meta property="og:description" content="منصة ذكاء اصطناعي متطورة تجمع أقوى النماذج العالمية في مكان واحد، لتجربة محادثة فائقة، تفكير عميق، وإدارة برمجية متكاملة." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#C96442" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="NUX AI" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "NUX AI",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "All",
+      "description": "منصة ذكاء اصطناعي متطورة تجمع أقوى النماذج العالمية في مكان واحد، لتجربة محادثة فائقة، تفكير عميق، وإدارة برمجية متكاملة."
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('nux_theme_v1');
+          var theme = (saved === 'dark' || saved === 'light') ? saved : 'light';
+          var root = document.documentElement;
+          if (theme === 'dark') {
+            root.classList.add('dark');
+            root.setAttribute('data-theme', 'dark');
+            root.style.colorScheme = 'dark';
+          } else {
+            root.classList.remove('dark');
+            root.setAttribute('data-theme', 'light');
+            root.style.colorScheme = 'light';
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script async src="https://js.puter.com/v2/"></script>
+    <script>
+      // Suppress transient Vite WebSocket errors in preview iframe
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event && event.reason) {
+          var msg = String(event.reason.message || event.reason || '');
+          if (msg.includes('WebSocket') || msg.includes('websocket')) {
+            event.preventDefault();
+          }
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-[#FAF9F5] text-[#2D2A26] dark:bg-[#1C1C1A] dark:text-[#E8E6DF] antialiased selection:bg-[#E8D4C8] dark:selection:bg-[#5C382A]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

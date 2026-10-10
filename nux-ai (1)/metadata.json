@@ -1,0 +1,6 @@
+{
+  "name": "NUX AI",
+  "description": "منصة ذكاء اصطناعي متطورة تجمع أقوى النماذج العالمية في مكان واحد، لتجربة محادثة فائقة، تفكير عميق، وإدارة برمجية متكاملة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

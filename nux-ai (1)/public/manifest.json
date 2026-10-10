@@ -1,0 +1,18 @@
+{
+  "name": "NUX AI – منصة الذكاء الاصطناعي الموحدة",
+  "short_name": "NUX AI",
+  "description": "منصة ذكاء اصطناعي متطورة تجمع أقوى النماذج العالمية في مكان واحد، لتجربة محادثة فائقة، تفكير عميق، وإدارة برمجية متكاملة.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F5",
+  "theme_color": "#C96442",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
